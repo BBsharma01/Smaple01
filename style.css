@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100vw;
+    padding: .8vh 5vw 0.8vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side1 .logo img {
+    width: 1.9vw;
+}
+
+.side1 .bname {
+    font-size: 1.9vw;
+    font-weight: 1vw;
+    color: blue;
+}
+
+.side1 .nav {
+    padding: 0 2vh 0 2vh;
+
+}
+
+.side1 .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side1 .nav ul li {
+    padding: 0 3vw 0 3vw;
+}
+
+.side1 .nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.side2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side2 .login {
+    padding: 0 1vw;
+}
+
+.side2 .login a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.side2 .triel {
+    padding: 1vh 0.5vw;
+    display: inline-block;
+
+}
+.side2 .triel a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
+.side2 .triel span{
+    font-size: 1.5vw;
+}
+
+
+.m01 {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line01 .new {
+    margin: 0 2vw 0 0;
+    background-color: yellow;
+    color: black;
+    padding: 0.3vh 1vw;
+    border-radius: 5vw;
+    border: solid 0.3px;
+}
+
+.line01 .linematter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m02 {
+    width: 100vw;
+    height: 40vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.m021 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+}
+
+.m021 .sm{
+    font-size: 4vw;
+    color: blue;
+}
+
+.m022{
+    margin: 3vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m022 .ce{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.ti{
+    margin: 2vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ti .triel {
+    margin: 0 2vw 0 0;
+    padding: 1vh 0.5vw;
+    display: inline-block;
+
+}
+.ti .triel a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
+.ti .triel span{
+    font-size: 1.5vw;
+}
+
+.inquery{
+    margin: 0 2vw 0 0;
+}
+.inquery a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.126);
+}
+
+.inquery a span{
+    padding: 0 1vw;
+}
